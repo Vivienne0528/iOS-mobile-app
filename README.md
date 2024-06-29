@@ -1,23 +1,5 @@
 # A PRE-DESIGN GEOTHERMAL TOOL
 
-
-## Project overview
-
-Our team, IO-Redback, will collaborate with our client, Guillermo Narsilio Ferrero, to develop an updated version of the geothermal tool app under the supervision of Luke. The estimated duration of this project is three months, and we will employ the Agile management method to ensure its successful completion.
-
-
-## Team members
-
-| Name            | Preferred name | Contact                          | Role          |
-| --------------- | -------------- | -------------------------------- | ------------- |
-| **Yuwei Gu**    | Vivi           | yuweig@student.unimelb.edu.au    | Developer     |
-| **Yuntian Wan** | Ray            | yuntianw@student.unimelb.edu.au  | Developer     |
-| **Haoyuan He**  | Harry          | haoyuanh1@student.unimelb.edu.au | Developer     |
-| **Ruiqi Pang**  | Richy          | ruiqip@student.unimelb.edu.au    | Product Owner |
-| **Yichen Liu**  | Chloe          | yicliu12@student.unimelb.edu.au  | Scrum Master  |
-
-
-
 ## Folder Structure
 #### To maintain, manage, and effectively utilize the project, we have organized the files into separate folders as follows:
 
@@ -43,9 +25,6 @@ Contains documents required to generate all necessary data (inputs) for simulati
 Trstflight link: https://testflight.apple.com/join/MQDSkFoY
 
 App Store link: https://apps.apple.com/au/app/geothermal-calculator/id6448557390
-
-## Changelogs
-**·** March 22 2023 - README file created.  
 **·** March 23 2023 - GitHub folder structure established and Sprint 1 documentation added to the README file.  
 **·** April 28 2023 - Updated folder structure to manage SwiftUI and UIKit source codes.  
 **·** April 29 2023 - Updated sprint 2 product release URL.  
