@@ -1,0 +1,194 @@
+/* Home */
+"Geothermal" = "Geothermal";
+"Language" = "Idioma";
+"Theme" = "Tema";
+"Light" = "Claro";
+"Dark" = "Oscuro";
+"Start" = "Comenzar";
+"terms_1" = "Acepto los";
+"terms_2" = "términos y condiciones";
+"copyright" = "Derechos de autor © 2023 4EE. Todos los derechos reservados.";
+"terms_warning_info" = "Por favor, acepte los términos y condiciones.";
+"Color" = "Color";
+"Blue" = "Azul";
+"Green" = "Verde";
+"Brown" = "Marrón";
+"Close" = "Cerrar";
+
+/* Method */
+"Method" = "Método";
+"IGSHPA" = "IGSHPA";
+"ASHRAE" = "ASHRAE";
+"IGSHPA_info" = "La Asociación Internacional de Bombas de Calor Geotérmicas (IGSHPA) proporciona métodos de cálculo previo al diseño para sistemas perforados verticalmente, perforados horizontalmente y con trincheras horizontalmente. Sus métodos se basan en la suposición de que el suelo, desde el cual se intercambia el calor, tiene una temperatura constante a ciertas profundidades por debajo de la superficie.";
+"ASHRAE_info" = "El método de la Sociedad Americana de Ingenieros de Calefacción, Refrigeración y Aire Acondicionado (ASHRAE) utilizado en esta aplicación iOS ha sido reformulado por Philippe et al. (2010) y se utiliza para sistemas verticales. Este método se deriva de la suposición de que la transferencia de calor en el suelo solo ocurre por conducción y que la evaporación de humedad o el movimiento de agua subterránea no es significativo.";
+
+/* IGSHPA Setting */
+"IGSHPA System Setting" = "Configuración del Sistema IGSHPA";
+"Vertically - Bored (VB)" = "Perforado Verticalmente (VB)";
+"Horizontally - Bored (HB)" = "Perforado Horizontalmente (HB)";
+"Horizontally - Trenched (HT)" = "En Trinchera Horizontalmente (HT)";
+"VB_info" = "Los sistemas perforados verticalmente se utilizan comúnmente en edificios residenciales y comerciales, ya que esta configuración requiere un mínimo de terreno disponible para instalar. Sin embargo, este sistema puede ser significativamente caro como resultado del costo de perforación y, por lo tanto, se deben considerar tanto los sistemas verticales como horizontales para determinar la configuración más viable.";
+"HB_info" = "Los sistemas perforados horizontalmente son una configuración común para propiedades que tienen grandes áreas de tierra para utilizar. El beneficio de utilizar esta configuración es que no se requiere una excavación extensa. Dependiendo de la propiedad, el costo de dañar y reemplazar lo que actualmente ocupa la tierra puede exceder el costo de la perforación, lo que hace que esta sea una configuración óptima.";
+"HT_info" = "Los sistemas de trinchera horizontal son generalmente la instalación más barata de los tres sistemas porque no se requiere perforación. Sin embargo, estos sistemas requieren grandes áreas de tierra disponible para excavar con el fin de ser instalados y, incluso cuando hay suficiente tierra disponible, el costo de eliminar y reemplazar lo que actualmente está allí puede ser significativamente caro.";
+
+/* Data Input */
+"IGSHPA VB Data Input" = "Ingreso de datos IGSHPA VB";
+"IGSHPA HB Data Input" = "Ingreso de datos IGSHPA HB";
+"IGSHPA HT Data Input" = "Ingreso de datos IGSHPA HT";
+"ASHRAE Data Input" = "Ingreso de datos ASHRAE";
+"Please fill in all required fields." = "Por favor complete todos los campos requeridos.";
+"Please fill in either borehole number or borehole length." = "Por favor complete el número de perforación o la longitud de la perforación.";
+"Heat Pump Specification" = "Especificación de la bomba de calor";
+"Heat Pump Design Conditions" = "Condiciones de diseño de la bomba de calor";
+"Ground Properties" = "Propiedades del terreno";
+"Borehole Parameters" = "Parámetros de la perforación";
+"Borehole Configuration (optional)" = "Configuración de la perforación (opcional)";
+"Trench Pipe Parameters" = "Parámetros de la tubería de zanja";
+"Trench Configuration (optional)" = "Configuración de la trinchera (opcional)";
+"Calculate" = "Calcular";
+"Warning" = "Advertencia";
+"OK" = "Aceptar";
+"Enter a number" = "Ingrese un número";
+
+/* Result */
+"Input Data" = "Datos ingresados";
+"Calculated Results" = "Resultados calculados";
+"Recommended Setup" = "Configuración recomendada";
+"Configuration" = "Configuración";
+"Calculation Result" = "Resultado de la calculación";
+"IGSHPA_result_info" = "R(G): Resistencia térmica del terreno. \nS(B): Factor de forma del agujero. \nR(PP): Resistencia térmica de las paredes del tubo para dos tubos en paralelo. \nR(Grout): Resistencia térmica debido a la lechada y la posición del tubo en el agujero. \nR(B): Resistencia térmica del agujero. \nF(H): Fracción de funcionamiento en modo de calefacción durante el mes de diseño de calefacción. \nF(C): Fracción de funcionamiento en modo de enfriamiento durante el mes de diseño de enfriamiento. \nT(S.L): Temperatura del suelo de diseño para calefacción a la profundidad media del tubo GHEX. \nT(S.H): Temperatura del suelo de diseño para enfriamiento a la profundidad media del tubo GHEX. \nR(P): Resistencia térmica del tubo. \nL(HT): Longitud total de diseño del agujero para calefacción. \nL(CT): Longitud total de diseño del agujero para enfriamiento.";
+"ASHRAE_result_info" = "T(outHHP): Temperatura del agua de salida de la bomba de calor en modo de calefacción.\nT(outCHP): Temperatura del agua de salida de la bomba de calor en modo de enfriamiento.\nT(mh): Temperatura media del fluido GHE en modo de calefacción.\nT(mc): Temperatura media del fluido GHE en modo de enfriamiento.\nT(pc): Penalización de temperatura en modo de enfriamiento.\nT(ph): Penalización de temperatura en modo de calefacción.\nIn(t/ts): Tiempo adimensional.\nF: Función de correlación.\nR(10y): Resistencia térmica efectiva del terreno a la carga de terreno de 10 años.\nR(1m): Resistencia térmica efectiva del terreno a la carga de terreno de 1 mes.\nR(6h): Resistencia térmica efectiva del terreno a la carga de terreno de 6 horas.\nR(conv): Resistencia a la convección dentro de cada tubo del bucle U.\nR(p): Resistencia a la convección para cada tubo del bucle U.\nR(Grout): Resistencia de la lechada.\nR(B): Resistencia térmica efectiva del agujero.\nL(CU): Longitud total de diseño de la perforación no perturbada para enfriamiento.\nL(HU): Longitud total de diseño de la perforación no perturbada para calefacción.\nL(HT): Longitud total de diseño del agujero para calefacción.\nL(CT): Longitud total de diseño del agujero para enfriamiento.";
+"Number of Boreholes" = "Número de agujeros de perforación";
+"Minimum Boreholes Length" = "Longitud mínima de los agujeros de perforación";
+"Number of Trenches" = "Número de trincheras";
+"Minimum Trench Length" = "Longitud mínima de la trinchera";
+"Number of Pipes in Each Trench" = "Número de tubos en cada trinchera";
+"VB config" = "Longitud mínima del agujero:\n%@ m ✕ %@ Agujeros de perforación";
+"HT config" = "Longitud mínima de zanja:\n%@ %@ ✕ %@ tuberías en %@ zanjas";
+
+/* Parameter Info */
+"cop_info" = "Coeficiente de rendimiento diseñado.\n(Valor sugerido 4)";
+"eer_info" = "Índice de eficiencia energética en condiciones de diseño de refrigeración.\n(Valor sugerido 14.5)";
+"hc_info" = "Capacidad total de calefacción de la bomba de calor en condiciones de diseño.\n(Valor sugerido 20 kW, 68242.84 BTU/h o 5.687 TR)";
+"tc_info" = "Capacidad total de refrigeración de la bomba de calor en condiciones de diseño.\n(Valor sugerido 20 kW, 68242.84 BTU/h o 5.687 TR)";
+"ewt_min_info" = "Temperatura mínima de entrada de agua en condiciones de diseño de calefacción.\n(Valor sugerido 4 ℃ o 39.2 ℉ para Melbourne)";
+"lwt_min_info" = "Temperatura mínima de salida de agua en condiciones de diseño de calefacción.\n(Valor sugerido 1 ℃ o 33.8 ℉ para Melbourne)";
+"ewt_max_info" = "Temperatura máxima de entrada de agua en condiciones de diseño de calefacción.\n(Valor sugerido 30 ℃ o 86 ℉ para Melbourne)";
+"lwt_max_info" = "Temperatura máxima de salida de agua en condiciones de diseño de calefacción.\n(Valor sugerido 34 ℃ o 93.2 ℉ para Melbourne)";
+"rt_clg_info" = "Tiempo de funcionamiento real del equipo en modo de refrigeración por mes.\n(Valor sugerido 476 h)";
+"rt_htg_info" = "Tiempo de funcionamiento real del equipo en modo de calefacción por mes.\n(Valor sugerido 476 h)";
+"kg_info" = "Conductividad térmica del suelo.\n(Valor sugerido 1.73 W/(m⋅℃) o 1 BTU/(h ft ℉) para Melbourne)";
+"tg_info" = "Temperatura profunda de la Tierra.\n(Valor sugerido 18 ℃ o 64.4 ℉ para Melbourne)";
+"dgo_info" = "Diámetro del suelo alrededor del agujero de perforación afectado por la transferencia de calor.\n(Valor sugerido 4.572 m o 15 ft)";
+"db_info" = "Diámetro del agujero de perforación.\n(Valor sugerido 0.128 m o 5.039 in)";
+"dpo_info" = "Diámetro exterior del tubo.\n(Valor sugerido 0.027 m o 1.063 in)";
+"dpi_info" = "Diámetro interior del tubo.\n(Valor sugerido 0.022 m o 0.866 in)";
+"k_grout_info" = "Conductividad térmica de la lechada.\n(Valor sugerido 0.692 W/(m⋅℃) o 0.399 BTU/h ft ℉)";
+"kp_info" = "Conductividad térmica del tubo.\n(Valor sugerido 0.346 W/(m⋅℃) o 0.120 BTU/h ft ℉)";
+"tm_info" = "Temperatura media de la Tierra en los primeros 10 pies de suelo.\n(Valor sugerido 24 ℃ o 75.2 ℉ para Melbourne)";
+"as_info" = "Variación anual de la temperatura de la superficie de la Tierra por encima y por debajo de TM.\n(Valor sugerido -0.1 ℃ o 31.82 ℉ para Melbourne)";
+"alpha_info" = "Difusividad térmica del suelo.\n(Valor sugerido 0.06 m²/día o 0.646 ft²/día para Melbourne)";
+"d_info" = "Profundidad media del tubo.\n(Valor sugerido 3.1 m o 10.170 ft)";
+"rs_info" = "Resistencia térmica del suelo.\n(valor sugerido 1.6 m⋅℃/W)";
+"sm_info" = "Multiplicador de espaciamiento de zanjas.\n(valor sugerido 1.2)";
+"pm_info" = "Multiplicador de diámetro de tubo.\n(valor sugerido 1)";
+"cp_info" = "Capacidad de calor térmico del fluido (agua) del intercambiador de calor del suelo (GHE).\n(Valor sugerido 4000 J/kg K o 955.384 BTU/lb ℉)";
+"tinhp_info" = "Temperatura de entrada de agua de la bomba de calor.\n(Valor sugerido 4.4 ℃ o 39.92 ℉)";
+"mfls_info" = "Tasa de flujo de masa de fluido por kilovatio de carga de suelo pico horario.\n(Valor sugerido 0.074 kg/s kW)";
+"k_info" = "Conductividad térmica del suelo.\n(Valor sugerido 1.73 W/m K o 1 BTU/h ft ℉ para Melbourne)";
+"tg_info" = "Temperatura del suelo no perturbada.\n(Valor sugerido 12.41 ℃ o 54.338 ℉ para Melbourne)";
+"qy_info" = "Carga promedio de suelo anual.\n(Valor sugerido -1.762 kW, -6012.194 BTU/h o -0.501 TR)";
+"qm_info" = "Carga de suelo mensual.\n(Valor sugerido -100 kW, -341214.2 BTU/h o -28.435 TR)";
+"qh_info" = "Carga promedio de suelo por hora.\n(Valor sugerido -392.25 kW, -1338412.699 BTU/h o -111.534 TR)";
+"b_info" = "Distancia entre agujeros de perforación.\n(Valor sugerido 6.1 m o 20.013 ft)";
+"nb_info" = "Número de GHE de perforación.\n(Valor sugerido 120)";
+"a_info" = "Relación de aspecto geométrico del campo de perforación.\n(Valor sugerido 1.2)";
+"rbore_info" = "Radio del agujero de perforación.\n(Valor sugerido 0.054 m 2.126 in)";
+"lu_info" = "Distancia centro a centro entre tuberías de bucle U.\n(Valor sugerido 0.0471 m o 1.854 in)";
+"rpin_info" = "Radio interior del bucle U.\n(Valor sugerido 0.0137 m o 0.539 in)";
+"rpext_info" = "Radio exterior del bucle U.\n(Valor sugerido 0.0167 m o 0.657 in)";
+"kpipe_info" = "Conductividad térmica de la tubería.\n(Valor sugerido 0.346 W/m K o 0.120 BTU/h ft ℉)";
+"hconv_info" = "Coeficiente de convección interna.\n(Valor sugerido 1000 W/m² K o 176.11 BTU/h ft ℉)";
+"Borehole Number" = "Número de agujeros";
+"Number of boreholes." = "Número de agujeros.";
+"Borehole Length" = "Longitud del agujero";
+"Max length of a single borehole." = "Longitud máxima de un solo agujero.";
+"Number of Trenches." = "Número de trincheras.";
+"Pipes Per Trench" = "Tubos por trinchera";
+"Number of Pipes in each Trench." = "Número de tubos en cada trinchera.";
+
+/* Navigation */
+"Terms" = "Términos";
+"Privacy" = "Privacidad";
+"About" = "Acerca de";
+"app_info" = "Desarrollado por 4EE en colaboración con la Universidad de Melbourne.\nEsta aplicación móvil está destinada a ser utilizada como una herramienta para apoyar a los contratistas y diseñadores durante la fase de pre-diseño de los intercambiadores de calor de bucle de tierra. Esta aplicación y sus resultados no están destinados a reemplazar el software actual, los cálculos manuales y/o los diseñadores de sistemas GSHP utilizados en el proceso de pre-diseño.";
+
+/* Email */
+"Send Results To" = "Enviar resultados a";
+"Send results" = "Enviar resultados";
+"Request Detailed Design" = "Solicitar diseño detallado";
+"Request detailed design" = "Solicitar diseño detallado";
+"your_email" = "Su dirección de correo electrónico";
+"your_name" = "Su nombre (opcional)";
+"your_phone" = "Su número de teléfono (opcional)";
+"your_country" = "Su código de país (opcional)";
+"your_addr" = "Dirección del proyecto, incluyendo país (opcional)";
+"email_error" = "Error: Este dispositivo no soporta el envío de correo electrónico.";
+"Please see the attached details." = "Por favor, vea los detalles adjuntos.";
+"Result" = "Resultado";
+
+/* Terms and Conditions */
+/*
+ Estos Términos Adicionales son entre usted y Fourth Element Energy (4EE) y rigen su uso de la "Aplicación Geotérmica" (App). Estos Términos Adicionales se añaden y complementan los términos de Apple o Google (Términos de Terceros) aplicables a su uso de la App. En caso de cualquier inconsistencia entre estos Términos Adicionales y los Términos de Terceros, estos Términos Adicionales prevalecerán hasta donde exista dicha inconsistencia.
+ Al usar la App, se considera que ha leído y entendido, y acepta estar vinculado por y cumplir con, estos Términos Adicionales (según sean enmendados por 4EE de vez en cuando).
+
+ 1. Uso de la App
+ 1.1 Reconocimiento y acuerdo
+ La App es una herramienta que proporciona algunos cálculos de pre-diseño para sistemas de bombas de calor geotérmicas de fuente terrestre (GSHP). Usted reconoce y acepta que 4EE no hace representaciones sobre la operación de la App o la precisión de cualquier salida de la App y que la App se debe usar solo como guía, y no como fuente sobre la cual se tomen decisiones. Antes de usar cualquier información obtenida a través de la App, usted debería:
+ (a) verificar de forma independiente la precisión, actualidad o completitud de esa información; y
+ (b) buscar asesoramiento independiente de un profesional debidamente cualificado.
+ 4EE no es responsable ante usted ni ante nadie más por cualquier decisión tomada o acción tomada en base a cualquier información obtenida a través de la App.
+ 1.2 Suspensión y cancelación
+ 4EE puede suspender o cancelar su acceso al uso de la App, en cualquier momento sin previo aviso. Puede dejar de usar la App eliminando la aplicación de su dispositivo y eliminando cualquier software relevante de su dispositivo o computadora.
+ 1.3 Privacidad
+ (a) 4EE puede recopilar, almacenar y proporcionar a los proveedores de servicios de terceros 'información personal' e 'información sensible' según se define en la Ley de Privacidad de la Información 2000 (Vic).
+ (b) La política de privacidad de 4EE relacionada con la información recopilada por 4EE se puede acceder en https://4ee.com.au/legal.html y forma parte de estos Términos Adicionales.
+
+ 2. Garantías e indemnidad
+ 2.1 Garantías del consumidor
+ (a) Además de cualquier derecho que pueda tener bajo estos Términos Adicionales, también puede tener otros derechos bajo estatutos que varían de jurisdicción a jurisdicción. En particular, puede tener derechos bajo las garantías del consumidor que se aplican a la provisión de productos o servicios bajo la Ley del Consumidor Australiana (según se establece en el Anexo 2 de la Ley de Competencia y Consumo 2010 (Cth), enmendada de vez en cuando, u otra legislación similar de un estado o territorio de Australia respecto a bienes o servicios, que no pueden ser excluidos, restringidos o modificados por estos Términos Adicionales (colectivamente, Garantías del Consumidor).
+ (b) Estos Términos Adicionales no excluyen, restringen o modifican la aplicación de las Garantías del Consumidor ni cualquier otra condición, garantía, derecho o remedio conferido por o implícito bajo cualquier disposición de cualquier estatuto donde hacerlo sería:
+ (i) contravenir el estatuto relevante; o
+ (ii) hacer que cualquier parte de estos Términos Adicionales sea nula y/o no ejecutable.
+ 2.2 Limitación de responsabilidad
+ (a) En las cláusulas 2.2 y 2.3, Pérdidas significa todas las responsabilidades, pérdidas, daños, costos y gastos incluyendo:
+ (i) responsabilidades, pérdidas, daños, costos y gastos directos, indirectos o consecuentes;
+ (ii) costos legales y desembolsos, ya sean incurridos o adjudicados contra una parte, incluidos los costos de investigación, litigios, acuerdos y cumplimiento de sentencias; y
+ (iii) intereses, multas y penalidades,
+ sufridos o incurridos por cualquier persona, y ya sea que surjan en contrato, agravio (incluida negligencia) o de otro modo.
+ (b) Aparte de las Garantías del Consumidor, 4EE excluye todas las garantías, condiciones u otros términos, ya sean implícitos por estatuto o de otro modo, incluyendo, sin limitación, todas las representaciones o garantías, ya sean expresas o implícitas, sobre el contenido contenido en la App o los servicios proporcionados a usted a través de la App para cualquier propósito (incluyendo representaciones sobre la precisión, actualidad, completitud o adecuación de la información publicada en la App).
+ (c) Excepto por responsabilidad bajo las Garantías del Consumidor, 4EE excluye la responsabilidad por todas las Pérdidas sufridas o incurridas por cualquier persona:
+ (i) en relación con o de alguna manera relacionada con la App, incluyendo cualquier interrupción a la App o interferencia con o daño a sistemas informáticos u otros dispositivos electrónicos; o
+ (ii) en conexión con cualquier error, omisión o inexactitud contenida en cualquier información publicada en la App, incluyendo Pérdidas en conexión con su confianza en información obtenida a través de la App; y
+ (iii) de otra manera bajo o en relación con estos Términos Adicionales.
+ (d) Excepto por responsabilidad bajo las Garantías del Consumidor, en la medida en que 4EE no pueda excluir su responsabilidad bajo esta cláusula 2.2, 4EE limita su responsabilidad, a opción de 4EE y en la máxima medida permitida por la ley, a:
+ (i) volver a suministrar los servicios o servicios equivalentes; o
+ (ii) pagar el costo de tener los servicios o servicios equivalentes suministrados.
+
+ 2.3 Indemnidad
+ (a) Usted indemniza a 4EE y a cada uno de sus directores, funcionarios, empleados, agentes, asesores, consultores y contratistas (colectivamente, Personas Indemnizadas) contra todas las Pérdidas que surjan de o se relacionen con:
+ (i) su uso de la App;
+ (ii) su incumplimiento de estos Términos Adicionales o incumplimiento de la ley;
+ (iii) su incumplimiento de cualquier Términos de Terceros; o
+ (iv) cualquier reclamo alegando que usted ha infringido los derechos de propiedad intelectual u otros derechos de cualquier persona.
+ (b) Si cualquier Persona Indemnizada sufre o incurre en cualquier Pérdida como resultado de su incumplimiento de estos Términos Adicionales u otro acto u omisión y 4EE hubiera podido recuperar esas Pérdidas si las Pérdidas fueran sufridas o incurridas por 4EE, entonces 4EE podrá recuperar esas Pérdidas como si esas Pérdidas fueran sufridas o incurridas por 4EE.
+
+ 3. General
+ 3.1 Cambios a los Términos Adicionales
+ 4EE puede cambiar estos Términos Adicionales en cualquier momento. Usted acepta estar vinculado por los términos cambiados si continúa utilizando la App después de que los términos hayan cambiado.
+ 3.2 Divisibilidad
+ Si cualquier parte de estos Términos Adicionales se considera inválida, ilegal o no ejecutable, esa parte será separada, y las partes restantes de estos Términos Adicionales continuarán en vigor.
+ 3.3 Ley aplicable
+ Estos términos están regidos por las leyes aplicables en el Estado de Victoria, Australia y usted se somete a la jurisdicción no exclusiva de los tribunales de ese Estado.
+ */
+ "terms_detail" = "Estos Términos Adicionales son entre usted y Fourth Element Energy (4EE) y rigen su uso de la \"Aplicación Geotérmica\" (App). Estos Términos Adicionales se añaden y complementan los términos de Apple o Google (Términos de Terceros) aplicables a su uso de la App. En caso de cualquier inconsistencia entre estos Términos Adicionales y los Términos de Terceros, estos Términos Adicionales prevalecerán hasta donde exista dicha inconsistencia.\n Al usar la App, se considera que ha leído y entendido, y acepta estar vinculado por y cumplir con, estos Términos Adicionales (según sean enmendados por 4EE de vez en cuando).\n\n 1. Uso de la App\n 1.1 Reconocimiento y acuerdo\n La App es una herramienta que proporciona algunos cálculos de pre-diseño para sistemas de bombas de calor geotérmicas de fuente terrestre (GSHP). Usted reconoce y acepta que 4EE no hace representaciones sobre la operación de la App o la precisión de cualquier salida de la App y que la App se debe usar solo como guía, y no como fuente sobre la cual se tomen decisiones. Antes de usar cualquier información obtenida a través de la App, usted debería:\n (a) verificar de forma independiente la precisión, actualidad o completitud de esa información; y\n (b) buscar asesoramiento independiente de un profesional debidamente cualificado.\n 4EE no es responsable ante usted ni ante nadie más por cualquier decisión tomada o acción tomada en base a cualquier información obtenida a través de la App.\n 1.2 Suspensión y cancelación\n 4EE puede suspender o cancelar su acceso al uso de la App, en cualquier momento sin previo aviso. Puede dejar de usar la App eliminando la aplicación de su dispositivo y eliminando cualquier software relevante de su dispositivo o computadora.\n 1.3 Privacidad\n (a) 4EE puede recopilar, almacenar y proporcionar a los proveedores de servicios de terceros 'información personal' e 'información sensible' según se define en la Ley de Privacidad de la Información 2000 (Vic).\n (b) La política de privacidad de 4EE relacionada con la información recopilada por 4EE se puede acceder en https://4ee.com.au/legal.html y forma parte de estos Términos Adicionales.\n\n 2. Garantías e indemnidad\n 2.1 Garantías del consumidor\n (a) Además de cualquier derecho que pueda tener bajo estos Términos Adicionales, también puede tener otros derechos bajo estatutos que varían de jurisdicción a jurisdicción. En particular, puede tener derechos bajo las garantías del consumidor que se aplican a la provisión de productos o servicios bajo la Ley del Consumidor Australiana (según se establece en el Anexo 2 de la Ley de Competencia y Consumo 2010 (Cth), enmendada de vez en cuando, u otra legislación similar de un estado o territorio de Australia respecto a bienes o servicios, que no pueden ser excluidos, restringidos o modificados por estos Términos Adicionales (colectivamente, Garantías del Consumidor).\n (b) Estos Términos Adicionales no excluyen, restringen o modifican la aplicación de las Garantías del Consumidor ni cualquier otra condición, garantía, derecho o remedio conferido por o implícito bajo cualquier disposición de cualquier estatuto donde hacerlo sería:\n (i) contravenir el estatuto relevante; o\n (ii) hacer que cualquier parte de estos Términos Adicionales sea nula y/o no ejecutable.\n 2.2 Limitación de responsabilidad\n (a) En las cláusulas 2.2 y 2.3, Pérdidas significa todas las responsabilidades, pérdidas, daños, costos y gastos incluyendo:\n (i) responsabilidades, pérdidas, daños, costos y gastos directos, indirectos o consecuentes;\n (ii) costos legales y desembolsos, ya sean incurridos o adjudicados contra una parte, incluidos los costos de investigación, litigios, acuerdos y cumplimiento de sentencias; y\n (iii) intereses, multas y penalidades,\n sufridos o incurridos por cualquier persona, y ya sea que surjan en contrato, agravio (incluida negligencia) o de otro modo.\n (b) Aparte de las Garantías del Consumidor, 4EE excluye todas las garantías, condiciones u otros términos, ya sean implícitos por estatuto o de otro modo, incluyendo, sin limitación, todas las representaciones o garantías, ya sean expresas o implícitas, sobre el contenido contenido en la App o los servicios proporcionados a usted a través de la App para cualquier propósito (incluyendo representaciones sobre la precisión, actualidad, completitud o adecuación de la información publicada en la App).\n (c) Excepto por responsabilidad bajo las Garantías del Consumidor, 4EE excluye la responsabilidad por todas las Pérdidas sufridas o incurridas por cualquier persona:\n (i) en relación con o de alguna manera relacionada con la App, incluyendo cualquier interrupción a la App o interferencia con o daño a sistemas informáticos u otros dispositivos electrónicos; o\n (ii) en conexión con cualquier error, omisión o inexactitud contenida en cualquier información publicada en la App, incluyendo Pérdidas en conexión con su confianza en información obtenida a través de la App; y\n (iii) de otra manera bajo o en relación con estos Términos Adicionales.\n (d) Excepto por responsabilidad bajo las Garantías del Consumidor, en la medida en que 4EE no pueda excluir su responsabilidad bajo esta cláusula 2.2, 4EE limita su responsabilidad, a opción de 4EE y en la máxima medida permitida por la ley, a:\n (i) volver a suministrar los servicios o servicios equivalentes; o\n (ii) pagar el costo de tener los servicios o servicios equivalentes suministrados.\n\n 2.3 Indemnidad\n (a) Usted indemniza a 4EE y a cada uno de sus directores, funcionarios, empleados, agentes, asesores, consultores y contratistas (colectivamente, Personas Indemnizadas) contra todas las Pérdidas que surjan de o se relacionen con:\n (i) su uso de la App;\n (ii) su incumplimiento de estos Términos Adicionales o incumplimiento de la ley;\n (iii) su incumplimiento de cualquier Términos de Terceros; o\n (iv) cualquier reclamo alegando que usted ha infringido los derechos de propiedad intelectual u otros derechos de cualquier persona.\n (b) Si cualquier Persona Indemnizada sufre o incurre en cualquier Pérdida como resultado de su incumplimiento de estos Términos Adicionales u otro acto u omisión y 4EE hubiera podido recuperar esas Pérdidas si las Pérdidas fueran sufridas o incurridas por 4EE, entonces 4EE podrá recuperar esas Pérdidas como si esas Pérdidas fueran sufridas o incurridas por 4EE.\n\n 3. General\n 3.1 Cambios a los Términos Adicionales\n 4EE puede cambiar estos Términos Adicionales en cualquier momento. Usted acepta estar vinculado por los términos cambiados si continúa utilizando la App después de que los términos hayan cambiado.\n 3.2 Divisibilidad\n Si cualquier parte de estos Términos Adicionales se considera inválida, ilegal o no ejecutable, esa parte será separada, y las partes restantes de estos Términos Adicionales continuarán en vigor.\n 3.3 Ley aplicable\n Estos términos están regidos por las leyes aplicables en el Estado de Victoria, Australia y usted se somete a la jurisdicción no exclusiva de los tribunales de ese Estado.";

@@ -1,0 +1,204 @@
+/* Home */
+"Geothermal" = "Geothermal";
+"Language" = "Langue";
+"Theme" = "Thème";
+"Light" = "Clair";
+"Dark" = "Sombre";
+"Start" = "Commencer";
+"terms_1" = "J'accepte les";
+"terms_2" = "termes et conditions";
+"copyright" = "Droits d'auteur © 2023 4EE. Tous droits réservés.";
+"terms_warning_info" = "Veuillez accepter les termes et conditions.";
+"Color" = "Couleur";
+"Blue" = "Bleu";
+"Green" = "Vert";
+"Brown" = "Marron";
+"Close" = "Fermer";
+
+/* Method */
+"Method" = "Méthode";
+"IGSHPA" = "IGSHPA";
+"ASHRAE" = "ASHRAE";
+"IGSHPA_info" = "L'Association Internationale des Pompes à Chaleur Géothermiques (IGSHPA) fournit des méthodes de calcul préalables à la conception pour les systèmes forés verticalement, forés horizontalement et tranchés horizontalement. Leurs méthodes sont basées sur l'hypothèse que le sol, avec lequel la chaleur est échangée, a une température constante à certaines profondeurs sous la surface.";
+"ASHRAE_info" = "La méthode de la Société Américaine des Ingénieurs en Chauffage, Réfrigération et Climatisation (ASHRAE) utilisée dans cette application iOS a été reformulée par Philippe et al. (2010) et est utilisée pour les systèmes verticaux. Cette méthode est dérivée de l'hypothèse que le transfert de chaleur dans le sol se produit uniquement par conduction et que l'évaporation de l'humidité ou le mouvement de l'eau souterraine n'est pas significatif.";
+
+/* IGSHPA Setting */
+"IGSHPA System Setting" = "Configuration du Système IGSHPA";
+"Vertically - Bored (VB)" = "Foré - Verticalement (VB)";
+"Horizontally - Bored (HB)" = "Foré - Horizontalement (HB)";
+"Horizontally - Trenched (HT)" = "Tranché - Horizontalement (HT)";
+"VB_info" = "Les systèmes forés verticalement sont couramment utilisés dans les bâtiments résidentiels et commerciaux car cette configuration nécessite un minimum de terrain disponible pour l'installation. Cependant, ce système peut être significativement coûteux en raison du coût de forage et donc les systèmes verticaux et horizontaux devraient être considérés pour déterminer la configuration la plus viable.";
+"HB_info" = "Les systèmes forés horizontalement sont une configuration courante pour les propriétés qui ont de grandes surfaces de terre à utiliser. L'avantage de cette configuration est qu'une excavation extensive n'est pas nécessaire. Selon la propriété, le coût de la dégradation et du remplacement de ce qui occupe actuellement le terrain peut dépasser le coût du forage, ce qui en fait une configuration optimale.";
+"HT_info" = "Les systèmes tranchés horizontalement sont généralement l'installation la moins chère des trois systèmes car aucun forage n'est nécessaire. Cependant, ces systèmes nécessitent de grandes surfaces de terrain disponibles pour creuser afin d'être installés et même lorsque suffisamment de terrain est disponible, le coût de l'enlèvement et du remplacement de ce qui est actuellement là peut en soi être considérablement coûteux.";
+
+/* Data Input */
+"IGSHPA VB Data Input" = "Saisie de données IGSHPA VB";
+"IGSHPA HB Data Input" = "Saisie de données IGSHPA HB";
+"IGSHPA HT Data Input" = "Saisie de données IGSHPA HT";
+"ASHRAE Data Input" = "Saisie de données ASHRAE";
+"Please fill in all required fields." = "Veuillez remplir tous les champs requis.";
+"Please fill in either borehole number or borehole length." = "Veuillez remplir soit le nombre de trous de forage, soit la longueur du trou de forage.";
+"Heat Pump Specification" = "Spécification de la Pompe à Chaleur";
+"Heat Pump Design Conditions" = "Conditions de Conception de la Pompe à Chaleur";
+"Ground Properties" = "Propriétés du Sol";
+"Borehole Parameters" = "Paramètres du Trou de Forage";
+"Borehole Configuration (optional)" = "Configuration du Trou de Forage (optionnel)";
+"Trench Pipe Parameters" = "Paramètres du tuyau de tranchée";
+"Trench Configuration (optional)" = "Configuration de la Tranchée (optionnel)";
+"Calculate" = "Calculer";
+"Warning" = "Avertissement";
+"OK" = "OK";
+"Enter a number" = "Entrez un numéro";
+
+/* Result */
+"Input Data" = "Données d'entrée";
+"Calculated Results" = "Résultats calculés";
+"Recommended Setup" = "Configuration recommandée";
+"Configuration" = "Configuration";
+"Calculation Result" = "Résultat du calcul";
+"IGSHPA_result_info" = "R(G) : Résistance thermique du sol. \nS(B) : Facteur de forme du forage. \nR(PP) : Résistance thermique des parois des tuyaux pour deux tuyaux en parallèle. \nR(Grout) : Résistance thermique due à la boue et à la position du tuyau dans le forage. \nR(B) : Résistance thermique du forage. \nF(H) : Fraction de fonctionnement en mode chauffage pendant le mois de conception de chauffage. \nF(C) : Fraction de fonctionnement en mode refroidissement pendant le mois de conception de refroidissement. \nT(S.L) : Température du sol de conception pour le chauffage à la profondeur moyenne du tuyau GHEX. \nT(S.H) : Température du sol de conception pour le refroidissement à la profondeur moyenne du tuyau GHEX. \nR(P) : Résistance thermique du tuyau. \nL(HT) : Longueur totale de conception du forage pour le chauffage. \nL(CT) : Longueur totale de conception du forage pour le refroidissement.";
+"ASHRAE_result_info" = "T(outHHP) : Température de sortie de l'eau de la pompe à chaleur en mode chauffage.\nT(outCHP) : Température de sortie de l'eau de la pompe à chaleur en mode refroidissement.\nT(mh) : Température moyenne du fluide GHE en mode chauffage.\nT(mc) : Température moyenne du fluide GHE en mode refroidissement.\nT(pc) : Pénalité de température en mode refroidissement.\nT(ph) : Pénalité de température en mode chauffage.\nIn(t/ts) : Temps sans dimension.\nF: Fonction de corrélation.\nR(10y) : Résistance thermique effective du sol à la charge de sol de 10 ans.\nR(1m) : Résistance thermique effective du sol à la charge de sol de 1 mois.\nR(6h) : Résistance thermique effective du sol à la charge de sol de 6 heures.\nR(conv) : Résistance à la convection à l'intérieur de chaque tube de la boucle U.\nR(p) : Résistance à la convection pour chaque tube de la boucle U.\nR(Grout) : Résistance de la boue.\nR(B) : Résistance thermique effective du forage.\nL(CU) : Longueur totale de conception du forage non perturbé pour le refroidissement.\nL(HU) : Longueur totale de conception du forage non perturbé pour le chauffage.\nL(HT) : Longueur totale de conception du forage pour le chauffage.\nL(CT) : Longueur totale de conception du forage pour le refroidissement.";
+"Number of Boreholes" = "Nombre de trous de forage";
+"Minimum Boreholes Length" = "Longueur minimale des trous de forage";
+"Number of Trenches" = "Nombre de tranchées";
+"Minimum Trench Length" = "Longueur minimale de la tranchée";
+"Number of Pipes in Each Trench" = "Nombre de tuyaux dans chaque tranchée";
+"VB config" = "Longueur minimale du forage :\n%@ %@ ✕ %@ trous de forage";
+"HT config" = "Longueur minimale de tranchée:\n%@ %@ ✕ %@ tuyaux dans %@ tranchées";
+
+/* Parameter Info */
+"cop_info" = "Coefficient de performance conçu.\n(Valeur suggérée 4)";
+"eer_info" = "Rapport d'efficacité énergétique dans des conditions de refroidissement de conception.\n(Valeur suggérée 14.5)";
+"hc_info" = "Capacité totale de chauffage de la pompe à chaleur dans des conditions de conception.\n(Valeur suggérée 20 kW, 68242.84 BTU/h ou 5.687 TR)";
+"tc_info" = "Capacité totale de refroidissement de la pompe à chaleur dans des conditions de conception.\n(Valeur suggérée 20 kW, 68242.84 BTU/h ou 5.687 TR)";
+"ewt_min_info" = "Température minimale d'entrée d'eau dans des conditions de chauffage de conception.\n(Valeur suggérée 4 ℃ ou 39.2 ℉ pour Melbourne)";
+"lwt_min_info" = "Température minimale de sortie d'eau dans des conditions de chauffage de conception.\n(Valeur suggérée 1 ℃ ou 33.8 ℉ pour Melbourne)";
+"ewt_max_info" = "Température maximale d'entrée d'eau dans des conditions de chauffage de conception.\n(Valeur suggérée 30 ℃ ou 86 ℉ pour Melbourne)";
+"lwt_max_info" = "Température maximale de sortie d'eau dans des conditions de chauffage de conception.\n(Valeur suggérée 34 ℃ ou 93.2 ℉ pour Melbourne)";
+"rt_clg_info" = "Temps de fonctionnement réel de l'équipement en mode de refroidissement par mois.\n(Valeur suggérée 476 h)";
+"rt_htg_info" = "Temps de fonctionnement réel de l'équipement en mode de chauffage par mois.\n(Valeur suggérée 476 h)";
+"kg_info" = "Conductivité thermique du sol.\n(Valeur suggérée 1.73 W/(m⋅℃) ou 1 BTU/(h ft ℉) pour Melbourne)";
+"tg_info" = "Température de la terre en profondeur.\n(Valeur suggérée 18 ℃ ou 64.4 ℉ pour Melbourne)";
+"dgo_info" = "Diamètre du sol entourant le forage affecté par le transfert de chaleur.\n(Valeur suggérée 4.572 m ou 15 ft)";
+"db_info" = "Diamètre du trou de forage.\n(Valeur suggérée 0.128 m ou 5.039 in)";
+"dpo_info" = "Diamètre extérieur du tuyau.\n(Valeur suggérée 0.027 m ou 1.063 in)";
+"dpi_info" = "Diamètre intérieur du tuyau.\n(Valeur suggérée 0.022 m ou 0.866 in)";
+"k_grout_info" = "Conductivité thermique du coulis.\n(Valeur suggérée 0.692 W/(m⋅℃) ou 0.399 BTU/h ft ℉)";
+"kp_info" = "Conductivité thermique du tuyau.\n(Valeur suggérée 0.346 W/(m⋅℃) ou 0.120 BTU/h ft ℉)";
+"tm_info" = "Température moyenne de la terre dans les 10 premiers pieds du sol.\n(Valeur suggérée 24 ℃ ou 75.2 ℉ pour Melbourne)";
+"as_info" = "Variation annuelle de la température de surface de la terre au-dessus et en dessous de TM.\n(Valeur suggérée -0.1 ℃ ou 31.82 ℉ pour Melbourne)";
+"alpha_info" = "Diffusivité thermique du sol.\n(Valeur suggérée 0.06 m²/jour ou 0.646 ft²/jour pour Melbourne)";
+"d_info" = "Profondeur moyenne du tuyau.\n(Valeur suggérée 3.1 m ou 10.170 ft)";
+"rs_info" = "Résistance thermique du sol.\n(valeur suggérée 1.6 m⋅℃/W)";
+"sm_info" = "Multiplicateur d'espacement des tranchées.\n(valeur suggérée 1.2)";
+"pm_info" = "Multiplicateur de diamètre du tuyau.\n(valeur suggérée 1)";
+"cp_info" = "Capacité thermique du fluide (eau) de l'échangeur de chaleur géothermique (GHE).\n(Valeur suggérée 4000 J/kg K ou 955.384 BTU/lb ℉)";
+"tinhp_info" = "Température d'entrée de l'eau de la pompe à chaleur.\n(Valeur suggérée 4.4 ℃ ou 39.92 ℉)";
+"mfls_info" = "Débit massique du fluide par kilowatt de charge de sol maximale horaire.\n(Valeur suggérée 0.074 kg/s kW)";
+"k_info" = "Conductivité thermique du sol.\n(Valeur suggérée 1.73 W/m K ou 1 BTU/h ft ℉ pour Melbourne)";
+"tg_info" = "Température du sol non perturbée.\n(Valeur suggérée 12.41 ℃ ou 54.338 ℉ pour Melbourne)";
+"qy_info" = "Charge moyenne du sol à l'année.\n(Valeur suggérée -1.762 kW, -6012.194 BTU/h ou -0.501 TR)";
+"qm_info" = "Charge du sol mensuelle.\n(Valeur suggérée -100 kW, -341214.2 BTU/h ou -28.435 TR)";
+"qh_info" = "Charge moyenne du sol horaire.\n(Valeur suggérée -392.25 kW, -1338412.699 BTU/h ou -111.534 TR)";
+"b_info" = "Distance entre les trous de forage.\n(Valeur suggérée 6.1 m ou 20.013 ft)";
+"nb_info" = "Nombre de GHE de forage.\n(Valeur suggérée 120)";
+"a_info" = "Rapport d'aspect géométrique du champ de forage.\n(Valeur suggérée 1.2)";
+"rbore_info" = "Rayon du trou de forage.\n(Valeur suggérée 0.054 m 2.126 in)";
+"lu_info" = "Distance centre à centre entre les tuyaux de la boucle U.\n(Valeur suggérée 0.0471 m ou 1.854 in)";
+"rpin_info" = "Rayon intérieur de la boucle U.\n(Valeur suggérée 0.0137 m ou 0.539 in)";
+"rpext_info" = "Rayon extérieur de la boucle U.\n(Valeur suggérée 0.0167 m ou 0.657 in)";
+"kpipe_info" = "Conductivité thermique du tuyau.\n(Valeur suggérée 0.346 W/m K ou 0.120 BTU/h ft ℉)";
+"hconv_info" = "Coefficient de convection interne.\n(Valeur suggérée 1000 W/m² K ou 176.11 BTU/h ft ℉)";
+"Borehole Number" = "Nombre de forages";
+"Number of boreholes." = "Nombre de forages.";
+"Borehole Length" = "Longueur du forage";
+"Max length of a single borehole." = "Longueur maximale d'un seul forage.";
+"Number of Trenches." = "Nombre de tranchées.";
+"Pipes Per Trench" = "Tuyaux par tranchée";
+"Number of Pipes in each Trench." ="Nombre de tuyaux dans chaque tranchée.";
+
+/* Navigation */
+"Terms" = "Termes";
+"Privacy" = "Intimité";
+"About" = "À propos";
+"app_info" = "Développé par 4EE en collaboration avec l'Université de Melbourne.\nCette application mobile est destinée à être utilisée comme un outil pour soutenir les entrepreneurs et les concepteurs lors de la phase de pré-conception des échangeurs de chaleur à boucle de terrain. Cette application et ses résultats ne sont pas destinés à remplacer le logiciel actuel, les calculs manuels et/ou les concepteurs de systèmes GSHP utilisés dans le processus de pré-conception.";
+
+/* Email */
+"Send Results To" = "Envoyer les résultats à";
+"Send results" = "Envoyer les résultats";
+"Request Detailed Design" = "Demander un design détaillé";
+"Request detailed design" = "Demander un design détaillé";
+"your_email" = "Votre adresse e-mail";
+"your_name" = "Votre nom (facultatif)";
+"your_phone" = "Votre numéro de téléphone (facultatif)";
+"your_country" = "Votre code de pays (facultatif)";
+"your_addr" = "Adresse du projet, y compris le pays (facultatif)";
+"email_error" = "Erreur : Cet appareil ne supporte pas l'envoi d'e-mails.";
+"Please see the attached details." = "Veuillez voir les détails en pièce jointe.";
+"Result" = "Résultat";
+
+/* Terms and Conditions */
+/*
+ Ces Conditions supplémentaires sont entre vous et Fourth Element Energy (4EE) et régissent votre utilisation de l'application "Geothermal" (App). Ces Conditions supplémentaires s'ajoutent et complètent les termes d'Apple ou de Google (Termes Tiers) applicables à votre utilisation de l'App. En cas d'incohérence entre ces Conditions supplémentaires et les Termes Tiers, ces Conditions supplémentaires prévaudront dans la mesure de toute incohérence.
+ En utilisant l'App, vous êtes réputé avoir lu et compris, et acceptez d'être lié par et de respecter, ces Conditions supplémentaires (telles que modifiées par 4EE de temps en temps).
+
+ 1. Utilisation de l'App
+
+ 1.1 Reconnaissance et accord
+ L'App est un outil qui fournit des calculs de pré-conception pour les systèmes de pompe à chaleur géothermique (GSHP). Vous reconnaissez et acceptez que 4EE ne donne aucune représentation quant au fonctionnement de l'App ou à l'exactitude de ses sorties, et que l'App doit être utilisée comme un guide uniquement, et non comme une source sur laquelle des décisions sont prises. Avant d'utiliser toute information obtenue par l'intermédiaire de l'App, vous devriez :
+ (a) vérifier indépendamment l'exactitude, la pertinence ou l'exhaustivité de cette information; et
+ (b) demander conseil à un professionnel qualifié.
+ 4EE n'est pas responsable envers vous ou toute autre personne pour toute décision prise ou action entreprise en se basant sur des informations obtenues par le biais de l'App.
+
+ 1.2 Suspension et annulation
+ 4EE peut suspendre ou annuler votre accès ou utilisation de l'App, à tout moment sans préavis. Vous pouvez cesser d'utiliser l'App en supprimant l'application de votre appareil et en supprimant tout logiciel pertinent de votre appareil ou ordinateur.
+
+ 1.3 Confidentialité
+ (a) 4EE peut collecter, stocker et fournir à des fournisseurs de services tiers des 'informations personnelles' et des 'informations sensibles' telles que définies dans la loi sur la protection des informations de 2000 (Vic).
+ (b) La politique de confidentialité de 4EE relative aux informations collectées par 4EE peut être consultée à l'adresse https://4ee.com.au/legal.html et fait partie de ces Conditions supplémentaires.
+
+ 2. Garanties et indemnité
+
+ 2.1 Garanties consommateur
+ (a) En plus de tous les droits que vous pouvez avoir en vertu de ces Conditions supplémentaires, vous pouvez également avoir d'autres droits en vertu de lois qui varient selon les juridictions. En particulier, vous pouvez avoir des droits en vertu des garanties pour les consommateurs qui s'appliquent à la fourniture de produits ou services en vertu du droit australien de la consommation (tel que défini à l'annexe 2 de la loi sur la concurrence et la consommation de 2010 (Cth), tel que modifié de temps à autre, ou d'une autre législation similaire d'un État ou territoire australien concernant les biens ou services, qui ne peuvent être exclus, restreints ou mod
+
+ ifiés par ces Conditions supplémentaires (collectivement, Garanties consommateur).
+ (b) Ces Conditions supplémentaires n'excluent pas, ne restreignent pas ou ne modifient pas l'application des Garanties Consommateur ou toute autre condition, garantie, garantie, droit ou recours conféré par ou implicite en vertu de toute disposition de toute loi où le faire serait :
+ (i) contrevenir à la loi pertinente; ou
+ (ii) rendre une partie de ces Conditions supplémentaires nulle et/ou inapplicable.
+
+ 2.2 Limitation de responsabilité
+ (a) Dans les clauses 2.2 et 2.3, Pertes signifie toutes les responsabilités, pertes, dommages, coûts et dépenses, y compris :
+ (i) les responsabilités, pertes, dommages, coûts et dépenses directs, indirects ou consécutifs;
+ (ii) les frais juridiques et les débours, qu'ils soient engagés ou attribués à une partie, y compris les frais d'enquête, de litige, de règlement et de conformité aux jugements; et
+ (iii) les intérêts, amendes et pénalités,
+ subies ou encourues par toute personne, et qu'elles découlent de contrat, de délit (y compris de négligence) ou autrement.
+ (b) À l'exception des Garanties consommateur, 4EE exclut toutes garanties, conditions ou autres termes, qu'ils soient implicites par la loi ou autrement, y compris, sans limitation, toutes représentations ou garanties, expresses ou implicites, concernant le contenu contenu dans l'App ou les services fournis à vous par l'intermédiaire de l'App à quelque fin que ce soit (y compris les représentations concernant l'exactitude, la pertinence, l'exhaustivité ou l'adéquation des informations publiées sur l'App).
+ (c) À l'exception de la responsabilité en vertu des Garanties Consommateur, 4EE exclut la responsabilité pour toutes Pertes subies ou encourues par toute personne :
+ (i) en relation avec ou de quelque manière que ce soit liée à l'App, y compris toute interruption de l'App ou interférence avec ou dommages aux systèmes informatiques ou autres dispositifs électroniques; ou
+ (ii) en relation avec toute erreur, omission ou inexactitude contenue dans toute information publiée sur l'App, y compris les Pertes en relation avec votre confiance dans les informations obtenues par l'intermédiaire de l'App; et
+ (iii) autrement en vertu de ou en relation avec ces Conditions supplémentaires.
+ (d) À l'exception de la responsabilité en vertu des Garanties Consommateur, dans la mesure où 4EE ne peut exclure sa responsabilité en vertu de cette clause 2.2, 4EE limite sa responsabilité, à l'option de 4EE et dans la mesure maximale permise par la loi, à :
+ (i) la fourniture des services ou de services équivalents; ou
+ (ii) le paiement du coût d'avoir les services ou services équivalents fournis à nouveau.
+
+ 2.3 Indemnité
+ (a) Vous indemnisez 4EE et chacun de ses directeurs, dirigeants, employés, agents
+
+ , conseillers, consultants et entrepreneurs (collectivement, Personnes indemnisées) contre toutes Pertes résultant de ou liées à :
+ (i) votre utilisation de l'App;
+ (ii) votre violation de ces Conditions supplémentaires ou de la loi;
+ (iii) votre violation de tout Termes Tiers; ou
+ (iv) toute réclamation alléguant que vous avez enfreint les droits de propriété intellectuelle ou d'autres droits de toute personne.
+ (b) Si une Personne Indemnisée subit ou encourt une Perte à la suite de votre violation de ces Conditions supplémentaires ou d'un autre acte ou omission et que 4EE aurait pu récupérer ces Pertes si les Pertes avaient été subies ou encourues par 4EE, alors 4EE pourra récupérer ces Pertes comme si ces Pertes avaient été subies ou encourues par 4EE.
+
+ 3. Général
+
+ 3.1 Changements aux Conditions supplémentaires
+ 4EE peut modifier ces Conditions supplémentaires à tout moment. Vous acceptez d'être lié par les termes modifiés si vous continuez à utiliser l'App après que les termes aient été modifiés.
+ 3.2 Divisibilité
+ Si une partie de ces Conditions supplémentaires est jugée invalide, illégale ou inapplicable, cette partie sera séparée et les autres parties de ces Conditions supplémentaires continueront d'avoir force.
+ 3.3 Droit applicable
+ Ces termes sont régis par les lois applicables dans l'État de Victoria, Australie et vous vous soumettez à la juridiction non exclusive des tribunaux de cet État.
+ */
+"terms_detail" = "Ces Conditions supplémentaires sont entre vous et Fourth Element Energy (4EE) et régissent votre utilisation de l'application \"Geothermal\" (App). Ces Conditions supplémentaires s'ajoutent et complètent les termes d'Apple ou de Google (Termes Tiers) applicables à votre utilisation de l'App. En cas d'incohérence entre ces Conditions supplémentaires et les Termes Tiers, ces Conditions supplémentaires prévaudront dans la mesure de toute incohérence.\nEn utilisant l'App, vous êtes réputé avoir lu et compris, et acceptez d'être lié par et de respecter, ces Conditions supplémentaires (telles que modifiées par 4EE de temps en temps).\n\n1. Utilisation de l'App\n\n1.1 Reconnaissance et accord\nL'App est un outil qui fournit des calculs de pré-conception pour les systèmes de pompe à chaleur géothermique (GSHP). Vous reconnaissez et acceptez que 4EE ne donne aucune représentation quant au fonctionnement de l'App ou à l'exactitude de ses sorties, et que l'App doit être utilisée comme un guide uniquement, et non comme une source sur laquelle des décisions sont prises. Avant d'utiliser toute information obtenue par l'intermédiaire de l'App, vous devriez :\n(a) vérifier indépendamment l'exactitude, la pertinence ou l'exhaustivité de cette information; et\n(b) demander conseil à un professionnel qualifié.\n4EE n'est pas responsable envers vous ou toute autre personne pour toute décision prise ou action entreprise en se basant sur des informations obtenues par le biais de l'App.\n\n1.2 Suspension et annulation\n4EE peut suspendre ou annuler votre accès ou utilisation de l'App, à tout moment sans préavis. Vous pouvez cesser d'utiliser l'App en supprimant l'application de votre appareil et en supprimant tout logiciel pertinent de votre appareil ou ordinateur.\n\n1.3 Confidentialité\n(a) 4EE peut collecter, stocker et fournir à des fournisseurs de services tiers des 'informations personnelles' et des 'informations sensibles' telles que définies dans la loi sur la protection des informations de 2000 (Vic).\n(b) La politique de confidentialité de 4EE relative aux informations collectées par 4EE peut être consultée à l'adresse https://4ee.com.au/legal.html et fait partie de ces Conditions supplémentaires.\n\n2. Garanties et indemnité\n\n2.1 Garanties consommateur\n(a) En plus de tous les droits que vous pouvez avoir en vertu de ces Conditions supplémentaires, vous pouvez également avoir d'autres droits en vertu de lois qui varient selon les juridictions. En particulier, vous pouvez avoir des droits en vertu des garanties pour les consommateurs qui s'appliquent à la fourniture de produits ou services en vertu du droit australien de la consommation (tel que défini à l'annexe 2 de la loi sur la concurrence et la consommation de 2010 (Cth), tel que modifié de temps à autre, ou d'une autre législation similaire d'un État ou territoire australien concernant les biens ou services, qui ne peuvent être exclus, restreints ou mod\n\nifiés par ces Conditions supplémentaires (collectivement, Garanties consommateur).\n(b) Ces Conditions supplémentaires n'excluent pas, ne restreignent pas ou ne modifient pas l'application des Garanties Consommateur ou toute autre condition, garantie, garantie, droit ou recours conféré par ou implicite en vertu de toute disposition de toute loi où le faire serait :\n(i) contrevenir à la loi pertinente; ou\n(ii) rendre une partie de ces Conditions supplémentaires nulle et/ou inapplicable.\n\n2.2 Limitation de responsabilité\n(a) Dans les clauses 2.2 et 2.3, Pertes signifie toutes les responsabilités, pertes, dommages, coûts et dépenses, y compris :\n(i) les responsabilités, pertes, dommages, coûts et dépenses directs, indirects ou consécutifs;\n(ii) les frais juridiques et les débours, qu'ils soient engagés ou attribués à une partie, y compris les frais d'enquête, de litige, de règlement et de conformité aux jugements; et\n(iii) les intérêts, amendes et pénalités,\nsubies ou encourues par toute personne, et qu'elles découlent de contrat, de délit (y compris de négligence) ou autrement.\n(b) À l'exception des Garanties consommateur, 4EE exclut toutes garanties, conditions ou autres termes, qu'ils soient implicites par la loi ou autrement, y compris, sans limitation, toutes représentations ou garanties, expresses ou implicites, concernant le contenu contenu dans l'App ou les services fournis à vous par l'intermédiaire de l'App à quelque fin que ce soit (y compris les représentations concernant l'exactitude, la pertinence, l'exhaustivité ou l'adéquation des informations publiées sur l'App).\n(c) À l'exception de la responsabilité en vertu des Garanties Consommateur, 4EE exclut la responsabilité pour toutes Pertes subies ou encourues par toute personne :\n(i) en relation avec ou de quelque manière que ce soit liée à l'App, y compris toute interruption de l'App ou interférence avec ou dommages aux systèmes informatiques ou autres dispositifs électroniques; ou\n(ii) en relation avec toute erreur, omission ou inexactitude contenue dans toute information publiée sur l'App, y compris les Pertes en relation avec votre confiance dans les informations obtenues par l'intermédiaire de l'App; et\n(iii) autrement en vertu de ou en relation avec ces Conditions supplémentaires.\n(d) À l'exception de la responsabilité en vertu des Garanties Consommateur, dans la mesure où 4EE ne peut exclure sa responsabilité en vertu de cette clause 2.2, 4EE limite sa responsabilité, à l'option de 4EE et dans la mesure maximale permise par la loi, à :\n(i) la fourniture des services ou de services équivalents; ou\n(ii) le paiement du coût d'avoir les services ou services équivalents fournis à nouveau.\n\n2.3 Indemnité\n(a) Vous indemnisez 4EE et chacun de ses directeurs, dirigeants, employés, agents\n\n, conseillers, consultants et entrepreneurs (collectivement, Personnes indemnisées) contre toutes Pertes résultant de ou liées à :\n(i) votre utilisation de l'App;\n(ii) votre violation de ces Conditions supplémentaires ou de la loi;\n(iii) votre violation de tout Termes Tiers; ou\n(iv) toute réclamation alléguant que vous avez enfreint les droits de propriété intellectuelle ou d'autres droits de toute personne.\n(b) Si une Personne Indemnisée subit ou encourt une Perte à la suite de votre violation de ces Conditions supplémentaires ou d'un autre acte ou omission et que 4EE aurait pu récupérer ces Pertes si les Pertes avaient été subies ou encourues par 4EE, alors 4EE pourra récupérer ces Pertes comme si ces Pertes avaient été subies ou encourues par 4EE.\n\n3. Général\n\n3.1 Changements aux Conditions supplémentaires\n4EE peut modifier ces Conditions supplémentaires à tout moment. Vous acceptez d'être lié par les termes modifiés si vous continuez à utiliser l'App après que les termes aient été modifiés.\n3.2 Divisibilité\nSi une partie de ces Conditions supplémentaires est jugée invalide, illégale ou inapplicable, cette partie sera séparée et les autres parties de ces Conditions supplémentaires continueront d'avoir force.\n3.3 Droit applicable\nCes termes sont régis par les lois applicables dans l'État de Victoria, Australie et vous vous soumettez à la juridiction non exclusive des tribunaux de cet État.";

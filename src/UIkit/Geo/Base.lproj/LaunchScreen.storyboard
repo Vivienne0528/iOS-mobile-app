@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright ⓒ 2016 University of Melbourne. All rights reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COl-2u-9na">
+                                <rect key="frame" x="-13" y="638" width="401" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="401" id="2hL-BC-gdu"/>
+                                    <constraint firstAttribute="height" constant="21" id="hRL-ef-3rX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geothermal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-ne-eFu">
+                                <rect key="frame" x="119" y="317" width="137" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="Qnf-WB-ENC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ir7-ne-eFu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="4Qa-zA-sLT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="COl-2u-9na" secondAttribute="bottom" constant="8" symbolic="YES" id="6Qv-dJ-kKl"/>
+                            <constraint firstItem="Ir7-ne-eFu" firstAttribute="centerX" secondItem="COl-2u-9na" secondAttribute="centerX" constant="58.5" id="A4D-rc-CFD"/>
+                            <constraint firstItem="COl-2u-9na" firstAttribute="centerX" secondItem="Ir7-ne-eFu" secondAttribute="centerX" id="DWP-y9-V3O"/>
+                            <constraint firstItem="COl-2u-9na" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KBa-YM-6Va"/>
+                            <constraint firstItem="Ir7-ne-eFu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PNb-57-bky"/>
+                            <constraint firstItem="Ir7-ne-eFu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nDV-Mn-ib7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="A4D-rc-CFD"/>
+                                <exclude reference="nDV-Mn-ib7"/>
+                                <exclude reference="KBa-YM-6Va"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="321"/>
+        </scene>
+    </scenes>
+</document>
